@@ -497,7 +497,7 @@ confirm($result);
 //time allowed
 
 $sqll = "INSERT INTO timer(`subject`, `hour`, `min`, `attempt`, `instruct`, `acesscode`)";
-$sqll.= " VALUES('$conc', '$othour', '$otminutes', '$otquess', '$otedit', `cbtexam`)";
+$sqll.= " VALUES('$conc', '$othour', '$otminutes', '$otquess', '$otedit', 'cbtexam')";
 $resullt = query($sqll);
 confirm($resullt);
 
